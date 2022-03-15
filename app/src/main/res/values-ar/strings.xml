@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لعبة اكس او</string>
+    <string name="turn_own_1">لاعب 1</string>
+    <string name="turn_own_2">لاعب 2</string>
+    <string name="turn_com">الكمبيوتر</string>
+    <string name="turn_own">لاعب</string>
+    <string name="vs_com">ضد الكمبيوتر</string>
+    <string name="vs_player">ضد لاعب</string>
+    <string name="start">ابدأ</string>
+    <string name="save">حفظ</string>
+    <string name="clear">مسح</string>
+    <string name="reload">تحميل</string>
+    <string name="toast_to_com">الكمبيوتر يجب ان يلعب الان!</string>
+    <string name="toast_to_player">أنت يجب ان تلعب الان!</string>
+    <string name="saved_msg">تم حفظ نتيجة اللعبة</string>
+    <string name="confirm_msg">هل تحب ان تلعب مرة أخرى ؟</string>
+    <string name="yes_btn_dialog">نعم</string>
+    <string name="no_btn_dialog">لا</string>
+    <string name="winTxt">\  فاز\ </string>
+    <string name="drawTxt">أووه, تعادل!</string>
+</resources>

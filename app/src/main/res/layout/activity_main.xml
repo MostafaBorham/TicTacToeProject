@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tictac_background"
+    android:gravity="center_vertical"
+    android:supportsRtl="false"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/tic_types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:checkedButton="@id/com">
+
+        <RadioButton
+            android:id="@+id/com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vs_com"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:buttonTint="#FF0000"/>
+
+        <RadioButton
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vs_player"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:buttonTint="#FF0000"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#FF0000"
+        android:backgroundTint="#ECD1B8"
+        android:onClick="startGame"
+        />
+
+</RelativeLayout>

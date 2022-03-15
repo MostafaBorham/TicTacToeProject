@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SimpleTicTacToe</string>
+    <string name="turn_own_1">Player 1</string>
+    <string name="turn_own_2">Player 2</string>
+    <string name="turn_com">Computer</string>
+    <string name="turn_own">Player</string>
+    <string name="vs_com">VS Com</string>
+    <string name="vs_player">VS Player</string>
+    <string name="start">start</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="reload">Reload</string>
+    <string name="toast_to_com">Computer should play now !</string>
+    <string name="toast_to_player">You should play now !</string>
+    <string name="saved_msg">GameScore saved</string>
+    <string name="confirm_msg">Are you want to play again ?</string>
+    <string name="yes_btn_dialog">Yes</string>
+    <string name="no_btn_dialog">No</string>
+    <string name="winTxt">\ win\ </string>
+    <string name="drawTxt">Ooh, draw!</string>
+</resources>
